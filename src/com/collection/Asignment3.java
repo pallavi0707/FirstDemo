@@ -20,7 +20,7 @@ public static void main(String[] args) {
     	l1.add(40);
     	l1.add(50);
     	System.out.println(l1);
-    	
+    	System.out.println("----forward direction using while----");
     	System.out.println("----using while----");
     	System.out.println("--- forwad direction---");
     	int i=0;
