@@ -37,7 +37,7 @@ public static void main(String[] args) {
     		System.out.println(l1.get(j));
     		j--;
     	}
-    	
+    	System.out.println("----forward direction using dowhile loop----);
     	System.out.println("----using Dowhile----");
     	
     	System.out.println("--- forward direction-----");
