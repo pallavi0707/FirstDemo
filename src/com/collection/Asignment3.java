@@ -20,7 +20,6 @@ public static void main(String[] args) {
     	l1.add(40);
     	l1.add(50);
     	System.out.println(l1);
-    	System.out.println("----forward direction using while loop----);
     	System.out.println("----using while----");
     	System.out.println("--- forwad direction---");
     	int i=0;
@@ -37,7 +36,7 @@ public static void main(String[] args) {
     		System.out.println(l1.get(j));
     		j--;
     	}
-    	System.out.println("----forward direction using dowhile loop----);
+   
     	System.out.println("----using Dowhile----");
     	
     	System.out.println("--- forward direction-----");
