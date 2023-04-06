@@ -8,6 +8,7 @@ public class Asignment3 {
 public static void main(String[] args) {
 	//N1();
 	N2();
+    System.out.println(welcome hithub);
 	//N3();
 }
 
