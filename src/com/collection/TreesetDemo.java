@@ -27,7 +27,7 @@ public class TreesetDemo {                               //treset internaly work
 		tset.add(10);
 		tset.add(40);
 		tset.add(30);
-		//tset.add("abc");   hetrogenous data store hot nahi exception yety class cast exception */
+		tset.add("abc");  // hetrogenous data store hot nahi exception yety class cast exception */
 		
 		System.out.println(tset);
 		
