@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 public class ComparatorAssignment {
 	static int responce;
+	
 public static void main(String[] args) {
 	      
 	Adress add1=new Adress(41, "Pune", "Mulshi");
@@ -23,47 +24,20 @@ public static void main(String[] args) {
 	System.out.println("before sort");
 	System.out.println( addreslist);
 	
-	/*System.out.println("after sort");
+	System.out.println("after sort");
 	Collections.sort(addreslist,new Adress());
 	System.out.println( addreslist);  
 	
-	/*System.out.println(" sort by district");
+	System.out.println(" sort by district");
 	Collections.sort(addreslist,new SortBydistrict());
 	System.out.println( addreslist);
 	
 	System.out.println(" sort by taluka");
 	Collections.sort(addreslist,new SortBytaluka ());
-	System.out.println( addreslist);*/
-	
-	/*System.out.println(" sort by pincode");
-	Collections.sort(addreslist,new SortBypincode() );
 	System.out.println( addreslist);
 	
 	
-	/*<Adress> dd=new Comparator<Adress>() {
-      Scanner sc=new Scanner(System.in);
-		@Override
-		public int compare(Adress o1, Adress o2) {
-			if(o1.district==o2.district) 
-				return responce;
-			if(responce==0) {
-				System.out.println(o1.pincode-o2.pincode);
-			}
-			else
-				
-			return 0;
-			return 0;
-		
-	
-
-			
-		}
-};
-       System.out.println("after sort");
-       Collections.sort(addreslist,dd);
-       System.out.println(addreslist);*/
-         
-	Comparator<Adress> addressComparator = new Comparator<Adress>() {
+Comparator<Adress> addressComparator = new Comparator<Adress>() {
 	    @Override
 	    public int compare(Adress address1, Adress address2) {
 	 // Compare the district property of the two Address objects
@@ -82,6 +56,24 @@ public static void main(String[] args) {
 	Collections.sort(addreslist, addressComparator);
 System.out.println(addreslist);
 
+	
+	/*Comparator<Adress> addressComparator = new Comparator<Adress>() {
+	    @Override
+	    public int compare(Adress address1, Adress address2) {
+	
+	        int responce = address1.getDistrict().compareTo(address2.getDistrict());
+	        if (responce== 0) {
+	        	
+	            return responce;
+	        } else {
+	            
+	            return Integer.compare(address2.getPincode(), address1.getPincode());
+	        }
+	    }
+	};*/
+	
+	
+	
 }
 
 

@@ -8,7 +8,7 @@ public class SetAssignment {
   public static void main(String[] args) {
 	  
 	  Stud s1=new  Stud(1, "aa", 20);
-	  Stud s2=new  Stud(2, "bb", 22);
+	  Stud s2=new  Stud(1, "bb", 22);
 	  Stud s3=new  Stud(3, "cc", 25);
 	  
 	  Set<Stud> studset=new HashSet<Stud>();

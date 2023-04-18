@@ -25,9 +25,9 @@ public class ComparatorExample {
 	};
 	 
 	 
-	 List<Students> slist=new ArrayList<>();
+	/* List<Students> slist=new ArrayList<>();
 	 
-	/* Students s1=new Students(21, "navin");
+	 Students s1=new Students(21, "navin");
 	 Students s2=new Students(12, "john");
 	 Students s3=new Students(18, "parul");
 	 Students s4=new Students(20, "kiran");
@@ -72,6 +72,9 @@ class Students implements Comparator<Students>{
 		return 0;
 	}
 	
+	public Students() {
+		
+	}
 	
 }
 }
